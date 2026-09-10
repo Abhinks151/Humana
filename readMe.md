@@ -59,12 +59,12 @@ gitGraph
    commit id: "feat: add login UI"
    commit id: "feat: add auth middleware"
    checkout develop
-   merge feature/user-auth id: "Merge PR into develop"
+   merge feature/user-auth id: "Merge PR #1"
    branch feature/blog-editor
    checkout feature/blog-editor
    commit id: "feat: add post editor"
    checkout develop
-   merge feature/blog-editor id: "Merge PR into develop"
+   merge feature/blog-editor id: "Merge PR #2"
 ```
 
 ---
